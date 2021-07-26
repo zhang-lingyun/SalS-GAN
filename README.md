@@ -5,7 +5,8 @@ Feel free to raise any issues, we will reply to them as soon as possible.
 
 # Inversion Example
 ## Step-1:Get Pretrained Models
-Download pre-trained models(StyleGAN models and VGG model) and put them in "./models/pretrain". You can find ll the pretrained model in [Idinvert](https://github.com/genforce/idinvert).
+Download pre-trained models(StyleGAN models and VGG model) and put them in "./models/pretrain". 
+You can find some pretrained models in [Idinvert](https://github.com/genforce/idinvert).
 
 ## Step-2:Invert Image
 python invert.py $MODEL_NAME $IMAGE_LIST -o $OUTPUT_DIR --num_iterations ITERATIONS  
