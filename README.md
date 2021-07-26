@@ -1,9 +1,9 @@
 # SalS-GAN
-The code for our paper SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for Real Image Embedding. Our code is heavily borrowed from <a>https://github.com/genforce/idinvert</a>.
+The code for our paper SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for Real Image Embedding. Our code is heavily borrowed from [idinvert](https://github.com/genforce/idinvert).
 
 # Inversion Example
 ## Step-1:Get Pretrained Models
-Download the pre-trained models(StyleGAN models and VGG model) and put them in ./models/pretrain. You can find ll the pretrained model in <a>https://github.com/genforce/idinvert</a>.
+Download the pre-trained models(StyleGAN models and VGG model) and put them in ./models/pretrain. You can find ll the pretrained model in [idinvert](https://github.com/genforce/idinvert).
 ## Step-2:Invert Image
 python invert.py styleganinv_tower256  tower_val_256x256/test.list -o ./outputs/tower  --num_iterations 3000
 
