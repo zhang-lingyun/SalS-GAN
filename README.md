@@ -1,5 +1,7 @@
 # SalS-GAN
-The code for our paper SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for Real Image Embedding. Our code is heavily borrowed from [Idinvert](https://github.com/genforce/idinvert).
+The code for our paper SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for Real Image Embedding.  
+Our code is heavily borrowed from [Idinvert](https://github.com/genforce/idinvert).  
+Feel free to raise any issues, we will reply to them as soon as possible.
 
 # Inversion Example
 ## Step-1:Get Pretrained Models
