@@ -14,8 +14,8 @@ example: python invert.py styleganinv_tower256  tower_val_256x256/test.list -o .
 
 # Citation
 @inproceedings{zhang2021salsgan,  
-  title={SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for Real Image Embedding},  
-  author={Lingyun Zhang, Xiuxiu Bai, and Yao Gao},  
-  booktitle={Proceedings of the 29th ACM International Conference on Multimedia (MM ’21)},  
-  year={2021}  
+&nbsp;&nbsp;title={SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for Real Image Embedding},  
+&nbsp;&nbsp;author={Lingyun Zhang, Xiuxiu Bai, and Yao Gao},  
+&nbsp;&nbsp;booktitle={Proceedings of the 29th ACM International Conference on Multimedia (MM ’21)},  
+&nbsp;&nbsp;year={2021}  
 }
