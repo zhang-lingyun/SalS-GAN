@@ -6,7 +6,8 @@ The code for our paper SalS-GAN: Spatially-Adaptive Latent Space in StyleGAN for
 Download pre-trained models(StyleGAN models and VGG model) and put them in "./models/pretrain". You can find ll the pretrained model in [Idinvert](https://github.com/genforce/idinvert).
 
 ## Step-2:Invert Image
-python invert.py styleganinv_tower256  tower_val_256x256/test.list -o ./outputs/tower  --num_iterations 3000
+python invert.py $MODEL_NAME $IMAGE_LIST -o $OUTPUT_DIR --num_iterations ITERATIONS  
+example: python invert.py styleganinv_tower256  tower_val_256x256/test.list -o ./outputs/tower  --num_iterations 3000
 
 # Citation
 @inproceedings{zhang2021salsgan,
