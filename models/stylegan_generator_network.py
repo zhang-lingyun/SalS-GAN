@@ -1,8 +1,6 @@
 # python 3.7
 """Contains the implementation of generator described in StyleGAN.
-
-For more details, please check the original paper:
-https://arxiv.org/pdf/1812.04948.pdf
+We mainly change the Style Modulation Layer function.
 """
 
 import numpy as np
