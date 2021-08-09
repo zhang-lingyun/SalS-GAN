@@ -1,10 +1,6 @@
 # python 3.6
-"""Inverts given images to latent codes with In-Domain GAN Inversion.
-
-Basically, for a particular image (real or synthesized), this script first
-employs the domain-guided encoder to produce a initial point in the latent
-space and then performs domain-regularized optimization to refine the latent
-code.
+"""
+invert a real image in our proposed sa latent space.
 """
 
 import os
