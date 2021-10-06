@@ -5,7 +5,7 @@ Our code is heavily borrowed from [Idinvert](https://github.com/genforce/idinver
 # Inversion Example
 ## Step-1:Get Pretrained Models
 Download pre-trained models(StyleGAN models and VGG model) and put them in "./models/pretrain". 
-You can find some pretrained models in [Idinvert](https://github.com/genforce/idinvert).
+You can find some pretrained stylegan models in [Idinvert](https://github.com/genforce/idinvert).
 
 ## Step-2:Invert Image
 ```bash
